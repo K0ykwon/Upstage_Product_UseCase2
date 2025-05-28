@@ -1,0 +1,141 @@
+GAO 공표 예정 전달예 정 : 1998년 5월 7일 목요일 오후 2시 15분 EDT 미국 회계감사 원 미 상원 상무, 과학 및 교통위원회 산하
+항공 소위원회 앞 증언 AVIATION SAFETY FAA Oversight of Aviation Repair Stations Gerald L.
+Dillingham, Associate Director, Transportation Issues, Resources, Community, and
+Economic Development Division의 증언 위원장 및 위원들 : 감사원은 항공기와 항공기 부품을 유지, 보수하는 수리업 체에
+대한 연방항공국(Federal Aviation Administration: FAA)의 감독 에 관하여 증언할 기회를 갖게 된 것을 감사하게
+생각합니다. 근래 들어, FAA의 수리업 체에 대한 감독은 문제가 되는 사항이 되고 있으며, 이는 일 부 수리업체에서 수행된 작업이 여러 항공기
+사고의 요인으로 밝혀졌 기 때문입니다. 예를 들면, 국가교통안전위원회(National Transportation Safety Board)는
+1995년 8월 대서양남부항공(Atlantic Southeast Airlines) 소속 엠브라에르-120(Embraer-120)의 프로펠러가
+손실된 사고에 관하여, 수리업체가 발견하지 못하거나 적절하게 수리하지 않은 부식 구멍(corrosion pits)으로부터 발생한 피로
+균열(fatigue fracture)이 사고의 유력한 원인이라고 판정하였습니다. 이 프로펠러 손실 사고는 18,000피트 상공에서 발생하였으며,
+비행기는 비상착륙 도중에 추락하여 탑승자 8명이 사망하고 21명이 부상을 입었습니다. 지난해 본 소위원회의 Ranking Minority
+Member와 론 와이든(Ron Wyden) 상원위원의 요청에 따라 FAA의 수리업체에 대한 감독에 관하여 보고한 바 있습니다. 1 1년간의
+검토 기간 동안, 우리는 본국 및 해외 수리업체의 운영을 관찰하고 FAA의 지역 또는 지구 사무소에서 500개에 가까운 수리업체에 대한 검사
+파일을 검토하였습니다. 또한 수리업체를 담당하는 검사관들을 대상으로 설문 조사를 실시하여 FAA의 감독이 개선될 수 있는 방안에 대한 의견을
+수렴하였습니다. 우리의 보고서에서는 다음 세 가지 주요 문제에 관하여 논의하였습니다: (1) 수리업체 검사에 개개의 검사관을 사용하였던 관행에
+관한 것, (2) 검사 문서의 상태에 관한 것, 그리고 (3) 검사 절차를 개선하기 위한 현 FAA의 조치에 관한 것. · FAA는 매년 적어도
+한번씩 모든 수리업체를 검사한다는 목표를 달성 하고 있으며 검사관들 중 84%는 수리업체들의 전반적인 준수 정도가 좋거나 (good or
+excellent) 우수하다고 믿고 있었습니다. 그러나 절반 이상의 검사관들이 수리업체들이 작업 수행을 위해 모든 항공사들로부터 자 신들의
+인력이 교육을 받도록 하고 최신의 정비 매뉴얼을 보유하는 등의 준수 정도가 개선될 수 있는 영역이 있다고 말하였습니다. 또한 FAA가 대개 개별
+검사관에게 의존하고 있는 반면, 대형 또는 복잡한 수리업체에서 특히 검사관 팀의 사용은 문제를 식별하는데 더 효과적일 수 있고 체계적이고
+오랫동안 지속된 결함들을 발견할 가능성이 더 높다는 것을 알 수 있었습니다. · 문서가 불충분하기 때문에 우리는 FAA가 검사 시 발견된
+결함들이 보완되었는지 여부를 확인하기 위하여 얼마나 잘 후속 조치를 취했는지를 판별할 수 없었습니다. 그러므로 수리업체들이 얼마나 완전하게 혹은
+신속하 게 자신을 1Aviation Safety: FAA Oversight of Repair Stations Needs Improvement
+(GAO/RCED-98-21, Oct. 24, 1997) 참조. 11 준수로 끌고오고 있는지를 평가할 수 없었습니다. FAA가 검사관들에게 어떤
+문서를 · 보관할지 알려주지 않기 때문에, 추세를 식별하고 반응하는 FAA의 능력이 제약되고 있습니다. FAA는 3,000만 달러 이상을
+지출하여 보고 시스템을 개발하고 있는데, 이 시스템은 다른 여러 업무와 함께 FAA가 항공안전에 가장 큰 위험을 미치는 분야를 해결하기 위하여
+검사 자원을 적용할 수 있도록 고안되어 있습니다. 과거에 보고한 바와 같이, 검사 기록의 완전성에 있어서 큰 개선이 없는 한 이 목표는 달성되지
+못할 것입니다. 1996년 5월 플로리다 에버글레이드(Everglades)에서 발루젯(ValuJet) DC-9가 추락한 이래, FAA는
+수리업체의 감독을 고급화하기 위하여 새로운 계획을 발표하고 있습니다. 이러한 계획은 수리업체에 대한 항공사의 감독을 명확화하고 보강하는 데
+초점을 맞추고 있지 FAA의 자체 검사 자원을 더 잘 활용할 수 있는 방안에 초점을 맞추고 있지 FAA는 수리업체에서의 자신의 검사 활동에 더
+직접적인 영향을 미칠 수 있는 다른 여러 노력을 추진 중입니다. 한 노력은 수리업체의 운영을 관장하는 규정을 개정하는 것일 것이고, 또 다른
+노력은 수리업체 인력의 자격을 관장하는 규정을 개정하는 것일 것입니다. 그러나 규정 개정은 1989년에 시작되어 지속적으로 지연되고 있습니다.
+세 번째 노력은 FAA 검사관들의 추가 배치인데, 이는 더 많은 자원들이 수리업체 검사를 위해 투입될 수 있음을 의미하는 것입니다. 마지막으로
+FAA는 최근에 전 검사 절차의 주요 개편을 발표하였습니다. 이 노력은 1998년 가을에 시행될 예정입니다. 이는 절차를 체계화하여 검사 및
+이러한 검사의 결과 보고에 일관성을 확보하도록 하여 검사 자원의 보다 효율적인 타겟팅이 가능하도록 고안한 것입니다. 팀 검사 대비 개개 인 검사
+FAA의 지침은 수리업체의 기술 데이터의 최신성, 시설, 특수 공구 및 장 비의 교정(calibration), 그리고 검사 절차를 포함한
+수리업체의 모든 영 역을 다루고 수리업체가 승인을 받은 작업만을 수행하고 있는지를 확 인하기 위하여 매년 검사를 실시하도록 규정하고 있습니다.
+대부분의 FAA 사무소들은 대형이고 복잡한 수리업체라 할지라도 검사관 팀을 사용하는 대신 개개의 수리업체에서 정기적인 감시를 실시할 개개인의
+검사관을 지정합니다. 대부분의 검사관들이 하나 이상의 수리업체에 대한 감독을 책임지고 있습니다. 우리가 방문한 FAA 사무소에서, 우리는
+98명의 검사관들의 업무량을 조사하였고, 그 결과, 개인별로 업무량은 1개에서 42개의 다양한 규모와 복잡성을 가진 시설까지 다양하였지만,
+평균적으로 12개의 수리업체를 각 검사관이 책임지고 있음을 발견하였습니다. 수리업체의 책임이 부여된 검사관들은 또한 항공 택시와, 농업용
+운영자, 헬리콥터 운영자, 그리고 조종사 및 정비공 훈련 학교 등 다른 항공 활동에 대한 감독을 책임지고 있습니다. FAA는 전국 항공 안전
+검사 계획(National Aviation Safety Inspection Program)이나 지역 항공 안전 검사 계획(Regional
+Aviation Safety Inspection Program)을 통하여 몇몇 수리업체들에 대한 보다 포괄적인 검토를 위해 팀을 사용하 고
+있습니다.2 이러한 특별 심도 있는 검사는 수리업체들의 극히 일부분에 대해서만 실시되고 있습니다. 지난 4년간, 수리업체에서 연평균 23개
+수리업체에 대해서만 이러한 검사가 실시되었습니다(항공사를 위해 작업을 수행하는 수리업체들의 1% 미만). 1993년 회계연도부터 1996년
+회계연도에 걸쳐, 우리는 개개인의 검사관에 의해 검사가 실시된 뒤 같은 해에 특별 검사팀들에 의해서도 검사가 실시된 16개의 수리업체를
+발견하였습니다. 팀은 총 347개의 결함을 발견하였는데, 이 중 15개만이 개개인의 검사관에 의해 식별된 결함이었습니다. 팀이 식별한 결함들 중
+많은 결함들이 부적절한 훈련 프로그램이나 불량한 품질 통제 매뉴얼 등 체계적이고 오래 지속된 결함인 것으로 보였습니다. 이러한 결함들은
+수리업체들이 이전에 개개인의 검사관에 의해 검사될 적에도 존재하였을 개연성이 높았습니다. 우리는 대형 수리업체 운영에서 존재할 수 있는 결함들
+중 팀 검사를 통해 보다 높은 비율의 결함들이 식별되는 이유로는 몇 가지 사항이 있다고 봅니다. 첫째, 개개인의 검사를 실시하는 데 책임이 있는
+많은 FAA 검사관들은 동 시 많은 소요 요구가 있기 때문에 수리업체들에 대한 그들의 검사가 바라 는 것만큼 철저하지 못할 수도 있다고
+말했습니다. 둘째, 팀 검사는 모든 사항을 다루도록 하기 위해 체크리스트나 다른 직무 도우미(job aids)를 활용합니다. FAA의 지침에
+따라 검사관들은 정기적인 감시 도중에 수리업체의 운영 모든 측면을 다룰 것은 규정되어 있으나, 모든 항목들이 다뤄지도록 하기 위한 어떤
+체크리스트나 다른 수단을 규정하고 있지는 않습니다. 정기적인 감시를 위한 표준화된 접근 방식의 부재는 항목들이 다뤄지지 않을 가능성을
+증가시킵니다. 마지막으로, 검사관들은 팀 검사가 그들의 판단이 독립적이 되도록 도와준다고 믿는데, 그 이유는 팀원들 대부분이 수리업체와 계속적인
+관계를 맺고 있지 않기 때문입니다. 이에 반해 개개인의 검사관이 실시하는 검사는 시설들에 대한 지속적 인 규제 책임이 있는 인원들에 의해
+실시되고, 그러므로 수리업체 운영 자와 지속적 업무 관계가 있는 것입니다. 우리가 조사한 검사관들 중 상당한 수가 팀 검사의 사용을
+지지하였습니다. 우리는 응답한 검사관들 중 71%가 준수를 개선하기 위한 수단으로서 지구 사무소 직원을 이용하여 팀 검사를 실시하는 것을
+선호하였으며, 50%가 다른 FAA 사무소에서 인력을 지원 받는 National 또는 Regional 2FAA는 이러한 포괄적인 검토를 통해
+어느 시설들에 추가적인 감독이 필요한지를 판정하는데, 이전 검사 결과나 운영 규모가 크고 복잡하다는 점을 고려하여 선택한다. Follow-Up
+and Documentation of Inspections Aviation Safety Inspection Program 인력을 증원하는 것을
+선호한다는 것을 발견하였습니다. 또한 일부 지구 사무소에서는 이미 대형이고 복잡한 수리업체의 정기적인 감시를 실시하기 위해 현지 기반 팀을
+사용하기 시작했다는 것을 발견하였습니다. 그러므로 1997년 10월의 보고서에서, 우리는 FAA가 특히 크거나 복잡한 수리업체들에 대하여
+수리업체 검사를 위한 현지 기반 팀의 사용을 확대할 것을 건의하였습니다. FAA의 지침은 검사와 후속 조치와 관련된 문서가 유지되어야 하는
+것인지 를 명시하는 데 제한적입니다. 우리는 FAA가 국내 수리업체에 결함 편지를 보낸 172건의 기록을 검토하여 후속 조치 문서가 있는지를
+판별하였습니다. 그러나 수리업체로부터의 회신은 이러한 사례들 중 약 4분의 1에서 파일에 보관되어 있지 않았고, 수리업체가 취한 보완 조치의
+적절성에 대한 FAA의 평가는 이러한 사례 중 약 4분의 3에서 파일에 보관되어 있지 않았습니다. 또한 우리는 전산화된 보고 시스템인 FAA의
+Program Tracking and Reporting Subsystem에 보고된 검사 결과를 검토하였는데, 수리업체들에 대한 개별 파일보다
+완결성이 낮다는 것을 발견하였습니다. 더 나은 문서 작업에 의한 보완이 없으면, FAA는 수리업체들이 얼마나 신속하고 철저하게 규정을 준수하고
+있는지를 쉽게 판별할 수 없습니다.
+그와 마찬가지로 중요한 것은, FAA는 항공안전성에 가장 큰 위험을 야기하는 분야들에 검사자원들을 가장 적절히 적용하는 방법과 관련하여 정보에
+근거한 결정을 내리는(make informed decisions)데 있어, 수리시설들의 검사실적에 관한 경향들을 식별할 수 없다는(be able
+to identify trends) 점입니다. FAA는 안전성과 관련된 위험요소들(safety-related risks)을 파악하여 그
+검사(the agency's inspections)의 우선순위를 세우는 데 도움이 되는 것을 의도(intent)로 하는 안전성과
+분석시스템(Safety Performance Analysis System)이란 체계를 개발하는 데 3,000만 달러 이상을 지출하고 있습니다.
+그것은 안전성 검사결과들을 담고 있는 현재의 보고하부체계(subsystem)에 부분적으로 의존하고 있습니다. 그러나 이 체계는 1999년
+말까지는 완전히 시행되지(be fully implemented) 않을 것이며, 기초하고 있는 문서들이 부정확하거나 불완전하거나 구식인 경우 그
+활용도는 제한될(of limited use) 것입니다. 우리는 또한 FAA가 외국 수리시설들에 대한 파일들이 국내수리시설들에 대한 것들보다(in
+its files for foreign repair stations than for domestic repair stations) 검사 및 그
+후속조치에 대한 문서화가 더 잘 되어 있다는(be better documented) 사실을 발견했습니다. 아마도 그 이유 중 일부는 기관의
+규정에 따라 외국수리시설들은 그 인증을 2년마다 갱신해야 하기(must renew their certification every 2 years)
+때문인 것으로 보입니다. 비교하자면, 국내수리시설들은 그들이 인증을 반납하거나(surrender it) FAA가 정지시키거나(suspend
+it) 취소하지 않는 한(revoke it) 무기한으로 그 인증을 보유하고 있습니다(retain their certification
+indefinitely). 외국수리시설들은 그들이 증명서 갱신자격이 있도록(qualify for certificate renewal) 그
+결함들을 빨리 시정하고 있는(quickly correct their deficiencies) 것으로 보입니다. 우리가 인터뷰한 34명의 FAA
+검사관들은 외국수리시설들과 국내수리시설들의 검사를 모두 수행한 바 있는데(have conducted inspections of both
+foreign and domestic repair stations) 외국 시설들에서 보다 빠른(more quickly) 기속이
+발생한다는(compliance occurred more quickly) 결론을 일치하게 내렸습니다(be unanimous in
+concluding). 그들은 더 빠른 기속이 갱신요건(the renewal requirement)에 기인한다고(be attributed to)
+본 것이며, 그것은 그들이 후속조치에 소요되는 시간을 줄일 수 있게(spend less time on follow-up) 하여, 다른 감시활동을
+위해 그들에게 자유를 준다고(free them) 말했습니다. 그러나 우리는 국내수리시설 파일들에 존재하는(be in domestic repair
+station files) 문서화의 미흡함 때문에 외국수리시설들이 국내수리시설들이 수행하는 것보다 더 빨리 기속을 달성하는지(achieve
+compliance more quickly) 여부를 확인할 수 없었습니다(be unable to confirm). 이러한 문제점들을
+해결하기(address these problems) 위해 우리는, FAA가 완전한 검사결과들과 후속조치들을 기록하기 위해(record
+complete inspection results and follow-up actions) 그 파일들에 유지되어야 하는(be maintained
+in its files) 문서들이 무엇인가를 특정하고(specify), FAA가 그 새로운 경영정보체계(new management
+information system)에 있는 자료의 질을 향상시키기 위한(improve the quality of data) 전략의 시행을 감시할
+것을(monitor the implementation) 권고했습니다. FAA는 이러한 권고들에 동의(concur)하였으며, 그것들을 시행하기
+위해 진행 중인 조치들을 보고했습니다(have reported actions under way). 수리시설 감독을 개선하기 위해 진행 중인
+FAA의 조치들 FAA는 그 수리시설들에 대한 검사를 개선하는 데 잠재력을 보유할 수 있는(hold potential for improving)
+몇 가지 노력들을 진행 중에 있습니다. 두 가지 노력은 수리시설 업무들을 다루는(cover) 규정과 정비공 및 수리공에 대한 인증요건들을
+변경하려는(change the regulations covering repair station operations and the
+certification requirements for mechanics and repairmen) 이니셔티브(initiatives)와 관련되어
+있습니다. FAA는 현행 규정들이 최근 몇 년간 항공산업에 발생한 많은 기술적 변화들을 반영하고 있지 못하다는(not reflect many
+of the technological changes) 점을 인정하고 있습니다. 우리가 조사한 FAA 검사관들은 수리시설들의 기속을 개선하는
+방법으로서(as a way to improve repair stations' compliance) 수리시설 규정들의 포괄적인 갱신(a
+comprehensive update of repair station regulations)을 강력히 지지했습니다(strongly
+supported). 우리가 조사한 검사관들 중 88%가 그 규정들의 갱신을 지지했습니다(favor updating the
+regulations). 1989년에 시작된 이 갱신은 거듭 연기되었고(be repeatedly delayed) 아직도 진행 과정에 머물러
+있습니다. 가장 최근의 목표-1997년 여름 동안 연방공보에 발표를 위한(be published in the Federal Register)
+논평을 위한 초안 규정들을 갖기-는 실현되지 않았습니다(not be met). 마찬가지로, 정비인력의 인증요건들에 대한 갱신은 1994년 이래
+중단되었습니다(be suspended since 1994). 이러한 오래 지속된 지연으로 인해, 두 갱신의 완료는 양쪽 모두의 노력들을 궤도상에
+유지하는 데 도움이 되는(help keep both efforts on track) 관리차원의 추가적인 주의(additional
+attention on management's part)를 요할 수도 있습니다. 우리의 1997년 10월 보고서는 FAA가 수리시설들에 관련된
+규정들을 갱신하기 위한 노력을 촉진하고(expedite efforts to update regulations pertaining to
+repair stations) 그 갱신들을 완료하기 위한 일정을 수립하고(establish schedules for completing the
+updates) 그것을 만족시키도록(meet the schedules) 권고했습니다. 세번째 노력은 FAA의 검사자원들을 증가시키고
+훈련시키는(increase and train FAA'S inspection resources) 것을 포함하고 있습니다. 1995회계연도 이래,
+FAA는 부분적으로 수리시설들을 감독할(oversee repair stations) 700명 이상의 검사관들을 그 인력에 추가하는 과정 중에
+있습니다(be in the process of adding). 현직검사관들의 조사응답은 이 노력의 성공이 새로이 추가되는(be added)
+검사관들의 자격과 검사관직에 있는 모든 사람들에게 제공되는 훈련에 부분적으로 의존할 것(depend partly on the
+qualifications of the new inspectors and on the training available to all of
+those in the inspector ranks)임을 나타냈습니다. 구체적으로, 우리가 조사한 검사관들의 82%가 수리시설들의 규정준수를
+개선하기 위한 방법으로 검사관들에게 실습훈련을 포함한 정비 및 항기조종관련 훈련(hands-on training)을 제공하기를 강력히 또는
+일반적으로 선호한다고 말했습니다(strongly or generally favor). 또 하나의 노력은 FAA의 새로운 항공운송감독체계(the
+new Air Transportation Oversight System)입니다. 이 체계는 GAO, 교통부의 감사관실(the Department
+of Transportation's Inspector General), FAA의 90일 안전성 검토(the FAA'S 90 Day Safety
+Review), 그리고 다른 기관들이 최근 몇 년 동안 지적한 바 있는(have pointed out) FAA의 감독상의 문제점들에 대응하기
+위한(respond to problems) 것입니다. 이 새로운 체계의 목표는 보다 체계적인 검사(more systematic
+inspections)를 통해 확인된 위험요소들을 다루기 위한(deal with risks identified) 감시를 표적으로
+삼는(target surveillance) 것입니다. 그 체계의 제1단계는 가을에 시행될 예정(be expected to be
+implemented in the fall)입니다. 완전히 시행되면, 이 체계는 FAA가 수리시설들에서 수행하는 검사들을 포함하여 그 모든
+검사들을 수행하고 추적하는 그 방식에 있어서 상당한 개선에 대한 약속(offer promise of significant
+improvements)을 제공할 것입니다. 3 그러나 초기의 단계에서, 그 체계는 10개의 가장 큰 항공운송사업자들에 대한 감독에만 영향을
+미칠 것이며(affect the oversight of only the 10 largest air carriers) 몇 년이 지나야 수리시설들에
+완전히 적용될(be fully applied to repair stations) 수도 있습니다. 우리는 FAA가 이 중요한 분야에서 그 감시의
+효과를 개선하는(improve the effectiveness of its oversight) 진도를 계속 감시할 것입니다(continue to
+monitor FAA'S progress). 위원장님, 이로써 우리의 진술을 마치겠습니다(conclude our statement). 우리는 이
+시점에 질문에 응답할 수 있으면 기쁘겠습니다(be pleased to respond to questions at this time). 3이들
+검사결과들이 현재 개발 중인 안전성과 분석시스템에 어떻게 통합될 지는 분명하지 않습니다(be unclear).

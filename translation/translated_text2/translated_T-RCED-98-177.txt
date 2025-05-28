@@ -1,0 +1,256 @@
+GAO For Release on Delivery Expected at 2 p.m. EDT Thursday April 30, 1998
+United States General Accounting Office Testimony Before the Subcommittee on
+Housing and Community Opportunity, Committee on Banking and Financial Services,
+House of Representatives HOME IMPROVEMENT Weaknesses in HUD's Management and
+Oversight of the Title I Program Statement of Stanley J. Czerwinski, Associate
+Director, Housing and Community Development Issues, Resources, Community, and
+Economic Development Division Mr. Chairman and Members of the Subcommittee: We
+are pleased to be here today to discuss the preliminary results of our
+assessment of certain aspects of the Department of Housing and Urban
+Development's (HUD) management and oversight of its loan insurance program for
+home improvements under Title I of the National Housing Act. As you know, we are
+conducting this assessment at the request of this Subcommittee and Congressman
+Kenneth E. Bentsen, Jr., and plan to report the results of our assessment this
+summer. Homeowners who have little equity in their home, at times obtain Title I
+property improvement loans to make alterations or repairs to their homes. These
+loans are made by banks and other private lenders from their own funds and are
+insured by HUD'S Federal Housing Administration (FHA). If borrowers default on
+their loans, banks submit claims to HUD, which approves or denies them.
+Concerned about how well this Title I program was being operated, you and
+Congressman Bentsen asked us to determine (1) the extent to which the
+information needed to manage the program was available to HUD, (2) the extent to
+which HUD was overseeing program lenders, and (3) whether HUD has any ongoing or
+planned efforts under way to strengthen its management and oversight. To meet
+these objectives, we reviewed, among other things, HUD'S Title I program
+regulations and guidelines, 16,556 claims paid by HUD between January 1994 and
+August 1997 to identify if any multiple claims were submitted on the same
+borrower for the same property, documents from a random sample of 53 loan claims
+paid to lenders by HUD from fiscal years 1995 through July 1997,1 and
+interviewed HUD officials in Washington, D.C., and Albany, New York-the location
+of the programs' claims examination unit. In summary, our preliminary analysis
+shows that HUD is not collecting the information needed for managing the
+program. Specifically, we found that HUD collects little information when loans
+are made on program borrowers, properties, and loan terms, such as the
+borrower's income and the address of the property being improved. Moreover, HUD
+does not maintain information on why it denies loan claims or why it
+subsequently approves some for payment. 1We sampled from the 5,646 program
+claims that were originally denied and then paid by HUD during the 3-year
+period. HUD also provides limited oversight of lenders' compliance with program
+regulations, conducting only 2 on-site lender reviews in fiscal year 1997 of the
+approximately 3,700 program lenders. Regarding the need for oversight of
+lenders' compliance, we found that loan claim files submitted by lenders to HUD
+following loan defaults often do not contain required loan documents, including
+the original loan applications and certifications signed by the borrower that
+the property improvement work has been completed. In addition, some claims were
+paid by HUD even though there were indications that lenders did not comply with
+required underwriting standards when insuring the loan. As a result of the
+management and oversight weaknesses we have observed, our preliminary work
+indicates that HUD does not know who the program is serving, if lenders are
+complying with program regulations, and whether certain potential program abuses
+are occurring, such as violations of the $25,000 limitation on the amount of
+Title I loan indebtedness for each property. HUD officials attributed these
+weaknesses to the program's being lender-operated, limited staff resources, and
+HUD'S assignment of monitoring priorities. Under the HUD 2020 Management Reform
+Plan and related efforts, HUD is making significant changes in all of its
+single-family housing programs, including the Title I property improvement
+program. Theses changes are motivated in part by HUD'S goals to downsize the
+agency and address long-standing agencywide management weaknesses. We are
+assessing the extent to which these changes may affect the management and
+oversight weaknesses we identified. Before I discuss these issues in greater
+detail, let me briefly explain how FHA'S Title I property improvement insurance
+program operates. 배경 Title I property improvement program은 국가의 기존 주택 재고를 보존할 부동산
+개선 사업에 자금을 대출하는 것을 장려하기 위하여 National Housing Act (12 U.S.C. 1703)에 의해 설립되었습니다. 이
+프로그램에 따라, FHA는 개별적으로 채무불이행된 대출에 대하여 대출기관의 청구 가능한 손실의 90%를 보장합니다. 대출기관에 지급되는 총
+청구액은 각 대출기관이 보유하고 있는 총 프로그램 대출의 가치의 10%로 제한됩니다. 오늘날, Title I의 미상환 대출의 가치는 다른 FHA
+주택 보험 프로그램에 비하여 상대적으로 작습니다. 1997년 9월 30일 현재, 부동산 개선 프로그램에 미상환된 대출의 가치는 364,423건의
+대출에 대해 약 $4.4 billion이었습니다. 반면, FHA의 Mutual Mortgage Insurance Fund 내의 미상환 FHA
+단독주택 대출의 가치는 약 $360 billion이었습니다. 마찬가지로, 소유자가 거주하는 단독주택 개조 시장 내의 Title I의 점유율은
+작습니다-1997회계 연도에 약 1%로 National Association of Home Builders에 의해 추정되었습니다. 약
+3,700명의 대출기관은 FHA에 의하여 Title I 대출을 실행할 수 있도록 승인되었습니다. 대출기관은 대출을 실행하고 서비스하는 것,
+계약업자를 감시하는 것, 그리고 차입자의 불만에 대처하는 것 등을 포함하여 프로그램의 많은 부분을 관리하는 책임이 있습니다. 이러한 활동을
+수행함에 있어서, 대출기관은 FHA의 대출심사 기준 및 규정을 준수하는 것과 주택 개선 작업이 검사되고 완료되는 것을 보장하는 것에 책임이
+있습니다. FHA는 대출기관을 승인하는 것, 그들의 운영을 감시하는 것, 그리고 채무불이행된 대출에 대해 제출된 청구를 검토하는 것에 책임이
+있습니다. Title I 프로그램 담당자는 대출기관이 프로그램 운영의 단독 책임을 지는 것으로 간주하고, HUD의 역할은 주로 대출기관을
+감독하고 채무불이행된 대출에 대해 지급된 청구가 적절한지 확인하는 것입니다. 주택 소유자는 Title I 대출기관에 직접 신청하거나 Title
+I 대출기관이 승인한 딜러-즉, 계약업자-에게 신용신청서를 준비하도록 하거나 또는 주택 소유자가 대출기관으로부터 대출을 얻는 것을 도와주는 것을
+포함하여 다른 방법으로 부동산 개선 대출을 얻습니다. 1986년에서 1996년에 이르는 회계연도 동안, 약 520,000건의 직접대출과
+383,000건의 딜러 대출이 이 프로그램에 따라 실행되었습니다. 법령에 따라, 부동산 개선 대출의 최대 규모는 단독주택 대출의 경우
+$25,000이며 최대 대출 기간은 약 20년입니다. Title I 규정은 차입자가 부동산 개선 대출에 의해 요구되는 주기적인 지불을 충족할 수
+있도록 충분한 소득을 보유할 것을 요구합니다. 대부분의 차입자는 소득이 낮거나 중간 수준이며, 주택에 대한 자산이 거의 없거나, 그리고/또는
+신용기록이 불량합니다. FHA가 채무불이행된 대출에 대해 지급하는 청구 지급 등과 같은 Title I 프로그램에 따른 HUD의 경비는 3가지
+수익원의 자금으로 충당됩니다: (1) 대출이 미상환 상태에 있는 매년 최초 대출금액의 0.5%에 대한 대출기관에 대한 보험료, (2) 대출에
+대해 채무불이행한 차입자로부터 회수된 자금, 그리고 (3) 예산. 제목 I 프로그램에 대한 1997년 8월 보고서에서, Price
+Waterhouse는 1990년부터 1996년의 회계연도에 걸쳐 프로그램이 미수금이 되었다고 결론내렸습니다. Price Waterhouse는 약
+$150 million의 순 자금 부족이 1996회계 연도에 실행된 프로그램 대출 동안에 발생했다고 추정했습니다 1996회계 연도에 FHA에
+의해 보증된 Title I 대출의 수명을 통해 약 10%의 추정 누적 청구율을 산출하는데 사용될 수 있습니다. 프로그램 관리를 위해 필요한 정보
+HUD가 수집하지 않음 FHA가 승인한 Title I 대출기관이 프로그램 대출을 실행할 때, 그들은 나이, 소득, 그리고 성별과 같은 차입자;
+그 주소와 같은 부동산; 그리고 이자율과 같은 대출 조건에 관한 정보를 수집합니다. 대출기관은 Home Mortgage Disclosure
+Act에 의해 이러한 정보의 대부분을 각각의 관할 감독기관에 보고해야 하지만, HUD는 Title I 대출이 실행될 때 이러한 정보의 거의
+수집하지 않습니다. 대출기관이 제공하도록 요구하는 정보를 이용하여, HUD는 대출기관과 차입자의 이름, 주 및 카운티뿐만 아니라 대출의 규모,
+기간, 그리고 목적을 기록합니다. 차입자의 주소, Social Security 번호, 소득, 부채 등과 같은 다른 단독주택 대출 보험 프로그램에
+대해 HUD가 수집하는 다른 정보는 Title I 대출이 실행될 때 HUD에 의해 수집되지 않습니다. HUD는 Title I 대출이
+채무불이행되고 대출기관이 청구를 제출할 때 차입자, 부동산, 그리고 대출에 대해 이용가능한 모든 정보를 수집합니다. Title I 담당자는
+대출이 실행될 때 정보를 거의 수집하지 않았다고 저희에게 말했습니다. 왜냐하면 그들은 이 프로그램이 대출기관에 의해 운영된다고 간주하기
+때문입니다.
+기간으로, 1996년도에 1천 1백만 달러의 순재원적자를 기록하였습니다.2 Data from the Price Waterhouse report
+on estimated projected termination rates for 결과적으로, 주택부는 이 프로그램이 제공하는 차입자 및 동네의
+특성을 파악할 수 없으며, 프로그램의 특정 잠재적인 남용을 파악할 수도 없습니다. 예를 들어, 주택부는 대출이 행해질 때 차입자의 사회보장번호와
+재산 주소를 수집하지 않습니다. 따라서 주택부는 어떤 차입자가 여러 건의 제1순위 대출을 받고 있거나 대출이 행해질 때 어떤 차입자가 재산당
+제1순위 대출의 최대금액을 초과하고 있는지 확인하는 데 어려움에 처할 것입니다. 주택부 규정에서는 제1순위 대출상의 총부채액을 각각의 단독주택에
+대해서 2만 5천 달러로 제한하고 있습니다. 이와 관련하여, 주택부의 제1순위 청구자료를 조사한 결과, 동일한 사회보장번호를 이용하여 여러 건의
+청구가 행해진 사례가 다수 발견되었습니다. 앞서 논의한 바와 같이, 프로그램 대출의 존속기간을 통산하여 대출의 약 10%에 대한 청구가 예상될
+수 있습니다. 1994년 1월부터 2Price Waterhouse defined the net funding position as the
+current value of the premiums collected minus the current value of the claims.
+Current value refers to past payments plus accumulated interest, plus expected
+future payments discounted by the interest rate on 5-year Treasury bonds. The
+estimated negative net funding deficit implies that premiums will be
+insufficient to pay the expected claims. 1997년 8월 사이에 주택부가 지급한 청구 중 16,556건을
+표본조사한 결과, 동일한 사회보장번호가 여러 건의 청구서에 기재된 사례가 247건 발견되었습니다. 이러한 사례들은 지급된 청구액이 약 520만
+달러에 달하였습니다. 여러 사례에서, 3년반 기간중 동일한 사회보장번호를 가지는 대출에 대해서 5건이상의 청구가 행해졌습니다. 우리의
+수사국(Office of Special Investigations)은 주택부의 감사관실(Office of the Inspector
+General)과 함께 이러한 대출에 관련된 상황을 더 자세히 조회하고 있습니다. 그러나 이러한 대출은 다수의 재산에 대한 것이거나, 동일한
+재산에 대한 대출이 여러 건이지만 총액이 2만 5천 달러를 초과하지 못한 것일 수도 있기 때문에, 프로그램 규정을 위반한 것은 아닐 수
+있습니다. 개별차입자가 제1순위 주택부 보증부채를 대량으로 누적하도록 허용하는 것은 그러나, 이러한 과다채무차입자의 재정적 스트레스 발생시
+주택부를 큰 손실위험에 노출시키는 것입니다. 또한, 주택부에 제공되는 정보는 대출이 채무불이행된 후 2만 5천 달러의 부채한도액 위반의 잠재적인
+남용을 파악할 수 있도록 허용하지만, 대출이 행해질 때 차입자의 사회보장번호와 재산주소 등이 수집되지 않기 때문에, 채무불이행되지 않은 프로그램
+대출의 90%에 대해서는 부채한도액에 대한 통제가 불가능합니다. Allowing individual borrowers to accumulate
+large amounts of Title I HUD insured debt, however, exposes HUD to large losses
+in the case of financial stress on the part of such heavily indebted borrowers.
+더욱이, 주택부가 프로그램 대출이 채무불이행되었을 때 더 광범위한 정보를 수집하지만, 청구자료베이스에 기록된 일부 정보의 정확성에 문제가 있음을
+발견하였습니다. 청구가 거부된 후 주택부가 지급한 53건의 대출에 대한 우리의 무작위표본조사에 따르면, 7건, 즉 13%의 대출이 직거래대출일
+때 딜러대출로 잘못 기재되었거나, 딜러대출일 때 직거래대출로 잘못 기재된 것으로 나타났습니다. 이것은 주택부가 프로그램의 딜러대출부분을 폐지하기
+위한 규정을 제안하는 이유 중 하나로 최근 딜러대출의 높은 채무불이행률을 지적한 바 있기 때문에 중요합니다. dealer or direct,
+we question HUD'S ability to identify default experience by loan type. 대출을 딜러대출
+또는 직거래대출로 식별하는 데 있는 잘못기재를 고려할 때, 우리는 대출유형에 따른 채무불이행경험을 식별할 수 있는 주택부의 능력에 의문을
+제기합니다. Information on Why Claims Denied and Subsequently Approved Not Maintained
+또한, 주택부의 청구거부 및 그 후의 승인에 대한 정보관리가 문제점이 있었습니다. 여러 가지 이유에 의거하여 주택부가 재산개량대출에 대한 청구를
+거부할 수 있지만, 주택부는 청구가 거부되는 이유나 거부 후 지급이 승인되는 이유에 대한 정보를 제공할 수 있는 체계를 갖추지 못하고
+있었습니다. HUD could not provide us with information on how many claims it denied
+because of poor underwriting or other program abuses or which lenders had a
+higher-than-average number of claims denied for specific program violations. 또한,
+우리는 주택부의 자료시스템으로부터, 거부된 청구가 차입자의 항고 또는 주택부의 면제조치에 따라 지급이 승인된 후 왜 지급이 승인되었는지를 확인할
+수 없었습니다. Information on Types of Loans for Which Claims Submitted Not Always
+Accurate 이러한 정보는 대출기관이 프로그램 규정을 얼마나 잘 준수하는지, 내부통제를 강화할 필요가 있는지, 어느 대출기관을 주택부의
+품질보증실(Office of Quality Assurance)의 검토대상으로 지정해야 하는지를 결정하는 데 있어 중요합니다. We also
+found that files for claims that were initially denied by HUD and subsequently
+paid frequently did not contain the names of program officials who decided the
+denied claims should be paid and the reasons for their decisions. 또한, 처음에 주택부가
+거부하고 그 후 지급이 승인된 청구에 대한 파일에는 거부된 청구를 지급해야 한다고 결정한 프로그램 담당자의 이름과 그 결정의 이유가 기재되어
+있지 않은 경우가 많은 것으로 나타났습니다. 우리가 조사한 무작위표본 중 53건의 대출청구파일 중 50건에는 초기의 거부후 이에 대한 추가검토의
+증거가 없거나 청구액을 최종적으로 지급토록 하는 근거가 기재되어 있지 않았습니다. Unless information on who makes
+decisions to deny claims and the reasons for the denial and subsequent payments
+are documented, HUD has no basis for reviewing the reasonableness of those
+decisions. 주택부는 최근에 청구가 거부되는 이유를 식별할 수 있도록 청구자료베이스 시스템에 변경을 가하였습니다. Program
+officials agreed that such information is important in determining how well
+program regulations are being complied with and in targeting lenders for quality
+assurance reviews. 청구심사자들은 이제, 거부이유, 위반된 규정의 조항을 포함하여 거부이유를 명시하도록 되어 있습니다. 그러나
+이러한 변경은 이전에 거부된 청구를 지급하게 된 이유를 설명하는 청구파일의 누락문서 문제를 해결하지 못하고 있습니다. Limited
+Oversight by HUD of Program Lenders 주택부가 준수문제를 식별할 수 있도록 제1순위 대출기관에 대한 모니터링 검토를
+행하는 것이 최근 몇 년 사이에 상당히 줄어들었습니다. Required Documents Missing From Loan Files
+Program lenders were not always complying With Program Regulations 주택부는 1995년과
+1997년도 회계연도 사이에 대출기관에 대한 제1순위 현장 품질보증 검토를 33건 수행하였습니다. 이러한 검토의 대부분(26건)은 1995년도
+회계연도에 이루어졌습니다. During fiscal years 1996 and 1997, HUD performed five and two on-
+site lender reviews, respectively. 주택부 관리들에 따르면, 1997년도 회계연도 이전까지 주택부는 FHA가 승인한
+3,700개의 제1순위 대출기관과 다른 FHA 보험프로그램에 대한 대출을 행하는 약 8,000개의 다른 FHA 승인 대출기관의 준수 여부를
+감시하는 23인의 직원을 두고 있었습니다. HUD officials stated that prior to fiscal year 1997, HUD
+had a staff of 23 individuals to monitor the 3,700 lenders approved by FHA to
+make Title I loans and about 8,000 other FHA approved lenders making loans on
+other FHA insurance programs. 이러한 제한된 감시자원 때문에, 주택부는 주요한 고액대출 FHA 프로그램에 대해서
+대출기관감시(lender monitoring)를 집중적으로 행하기로 결정하였다고 이러한 주택부 관리들은 밝히고 있습니다. Because of
+this limited monitoring resource, HUD decided to focus its lender monitoring on
+major high volume FHA programs, according to these HUD officials. 감시 우선순위 때문에
+주택부의 후속조사가 거의 이루어지지 못하고 있습니다. Monitoring priorities have also led to few follow-
+up reviews by HUD. 그 결과, 수행된 품질보증검토가 대출기관의 준수상태 개선에 미친 영향을 판단하기 어렵습니다. As a
+result, it is difficult to determine the impact of the quality assurance reviews
+that were performed on improving lenders' compliance. Required Documents Missing
+From Loan Files 제1순위 대출을 행할 때, 대출기관은 대출자에 대하여 대출상환능력이 있는 수용할 만한 신용위험을 대표하고 있는지를
+보장하고, 또한 재산개량작업이 완료되도록 하여야 합니다. However, our examination of 53 loan claim files
+revealed that one or more required documents needed to ensure program compliance
+were missing from more than half (30) of the files. 우리의 53건의 대출청구파일을 조사한 결과,
+프로그램 준수를 보장하는 데 필요한 한 종류 이상의 필수문서가 파일의 절반 이상(30건)에서 누락되어 있었습니다. 12건에서는 차입자가 서명한
+필수 원본 대출신청서가 대출파일에 없었습니다. The original loan application is important because it
+is used by the claims examiner to review the adequacy of the lender's
+underwriting and to ensure that the borrower's signature and Social Security
+number matches those on other documents, including the credit report. 더욱이, 53건의
+청구파일 중 23건에 대해서는, 재산개량작업이 완료되었음을 인증하는 필수 완료증명서가 누락되었거나 차입자가 서명하였지만 날인되지 않은 것으로
+나타났습니다. For 23 of the 53 claim files, we found that required completion
+certificates, certifying that the property improvement work had been completed,
+were missing or were signed but not dated by the borrowers. 프로그램 지침에 따르면, 딜러대출에
+대해서 채무불이행이 발생한 후 지급을 위해 제출된 청구는 파일에 서명한 완료증명서가 기재되어 있지 않으면 지급이 이루어져서는 안됩니다.
+According to program guidelines, claims submitted for payment after defaults
+have occurred on dealer loans should not be paid unless a signed completion
+certificate is in the file. 청구를 조사하는 과정에서, 완료증명서가 13건의 딜러대출 파일에 누락되어 있었고, 또 다른
+4건의 딜러대출 파일에 완료증명서는 있으나 날짜가 기재되어 있지 않았습니다. Lastly, for 33 loans on which program
+regulations required that an inspection be conducted by the lender, 18 loan
+files did not contain the report. 우리는 또한 대출기관이 얼마나 잘 대출심사의 준수를 보장하고 있는지를 판단하기
+위하여 53건의 청구파일을 검토하였습니다. All documentation supporting the underwriting
+determination should be retained in the loan file, according to HUD regulations.
+주택부 규정에 따르면, 대출심사의 결단을 지지하는 모든 문서는 대출파일에 보관되어야 합니다. HUD can deny a lender's
+claim if the lender has not followed HUD underwriting standards in making the
+loan. 그러나 주택부는 대출기관이 대출을 행할 때 주택부의 대출심사기준을 따르지 못했으면 대출기관의 청구를 거부할 수 있습니다.
+However, HUD does not examine the quality of a lender's loan underwriting during
+the claims process if 12 loan payments were made by the borrower before
+defaulting on the loan. 그러나 주택부는 차입자가 대출상환을 12회 행한 후 대출이 채무불이행된 경우에는 대출심사과정에서
+대출기관의 대출심사 품질을 검토하지 않습니다. 제1순위 대출의 27%가 처음 1년 이내에 채무불이행되고 있기 때문에, 사실상 이러한 관행은
+대부분의 채무불이행된 대출에 대해서 대출기관의 심사품질에 대한 검토에서 면책시키는 것입니다. Since 27 percent of the
+Title I loans that default do SO within the first year, this practice, in
+effect, exempts the majority of defaulted loans from an examination of the
+quality of the lenders' underwriting. 우리의 표본조사 대상인 53건의 대출 중 13건은 대출발생 후 12개월
+이내에 채무불이행되어 주택부의 심사검토 대상이 되었습니다. Of the 53 loans in our sample, 13 defaulted
+within 12 months of loan origination and were subject to an underwriting review
+by HUD. 우리는 이러한 13건의 대출청구파일에 대해서 심사검토를 집중적으로 행하였습니다. We focused our underwriting
+examination on these 13 loan claim files. 우리는 주택부가 결국 청구를 지급하였던 13건중 4건의 대출에 대해서
+대출기관이 의문스러운 심사를 행한 것을 발견하였습니다. We found that for 4 of the 13 loans, on which HUD
+eventually paid claims, lenders made questionable underwriting decisions.
+제목 I 프로그램 규정은 차입자에 대한 신용 신청과 심사자(lender)의 검토는 차입자, 가 수긍할 수 있는 신용 위험(acceptable
+credit risk)이 있고, 2년간의 안정된 고용을 가졌으며, 그의/그녀의 소득이 대출에 의해 요구되는 주기적 상환자금을 충족할 수 있을
+뿐만 아니라 차입자의 다른 거주지 비용과 반복되는 요금까지 충족시키기에 적절할 것임을 확립해야 한다고 요구하고 있습니다. 그러나 이 대출들 중
+4개에 대해서는 파일(files)에 있는 정보가 차입자들이 대출에 대한 자격을 갖추기에 충분한 소득을 가지지 못했거나 신용불량(poor
+credit)인 점을 나타내고 있었습니다. 예를 들면, 한 대출(loan)의 경우, 심사자는 차입자의 연간 소득을 계산하기 위해 3월의 첫
+2주간의 기간을 커버하는 급여명세서(pay stub)를 사용하였습니다. 이 급여명세서는 차입자의 연초부터의 수입이 3월 중순까지 $6,
+700이었음을 보여주고 있었고, 이 금액은 그의 연간소득이 $34,000, 즉 매월 약 $2,800임을 계산하는데 사용되었습니다. 그러나
+급여명세서는 또한 3월의 2주간 기간에 대해 차입자가 초과근무가 포함된 주(full week)일을 일하고 단지 $725, 즉 매월 약
+$1,600을 벌었음을 보여주고 있었습니다. 이 파일에는 보다 높은 월간 소득을 뒷받침할 수 있는 소득세보고서, W-2 양식 또는
+고용주(employer)에 의한 확인서 등과 같은 다른 문서가 포함되어 있지 않았습니다. 프로그램 담당자들은 우리에게 한 장의 급여명세서를
+사용하여 월간 소득을 계산하는 것이 수용할 수 있는 것이라고 말했습니다; 그러나 "당시의 연간수입(yearly earnings to date)"
+수치는 때때로 정상적인 급여기간 동안 벌어들인 실제 수입을 부풀릴 수 있기 때문에 사용해서는 안 된다고 했습니다. 차입자는 월간 $1,600
+정도를 수정된 소득을 가지고 있으면서도 대출의 금액에 대한 HUD의 소득요건을 여전히 충족하였습니다. 그러나 HUD는 이 대출이 이루어진 시점에
+차입자가 신용불량이었다는 점에서 그 산정기준(underwriting standards)이 따르지 않았다는 이유로 그 원래의 청구(claim)를
+거부하였습니다. HUD의 그 청구 거부에 대한 대응의 서한에서 심사자는 차입자가 대출이 이루어진 시점에 제한적인 신용을 가지고 있었다는 점을
+인정하였으나, 그 대출을 실시하는 것을 정당화하기 위해 월 $2,800의 (잘못 계산된) 높은 소득을 지적하였습니다. 이러한
+추론(reasoning)은 HUD가 차입자의 월 소득 계산의 오류에 대해 의문을 제기한 것을 보여주는 그 청구파일의 증거가 없었으므로 HUD에
+의해 받아들여진 것으로 보입니다. 차입자는 두번의 지불을 한 후 그 대출금을 연체하였고 그리고 HUD는 $14,000의 청구를 지불하였습니다.
+심사자의 제 I 제목 프로그램 규정 준수 미달(noncompliance with Title I program regulations)과 유사한
+문제점들이 HUD에 의해 확인되었습니다. 앞서 지적한 바와 같이, 1995 회계연도부터 1997 회계연도 사이에 HUD는 심사자에 대한 33건의
+제 I 제목 현장 품질보증검토(on-site quality assurance reviews)를 실시하였습니다. 다른 것들 중에서, HUD는
+심사자가 불량 신용 산정관행(poor credit underwriting practices)에 관여하였으며 검사보고서(inspection
+reports)가 누락되었거나 서명 또는 날짜가 기재되지 않은 검사보고서를 가진 대출 파일을 가지고 있다는 점을 지적하였습니다. HUD는 그
+발견된 사항들을 상세히 기술한 서한을 심사자에게 발송하였고 그 발견된 사항에 대해 대응하는 서면의 응답을 요청하였습니다. HUD는 그러나
+심사자가 교정조치(corrective actions)를 취했음을 보장하기 위해 32명의 심사자에 대해 후속적인, 현장 검토(on-site
+reviews)를 실시하지 않았습니다. 33건의 현장 검토에 대해, 9명의 심사자는 추가조치(further action)를 위해 HUD의 심사자
+검토 이사회(Mortgagee Review Board)에 회부(refer)되었습니다. 그 이사회는 이 심사자들 중 4명에게 총액 $23,500의
+민사형벌(civil penalties)을 부과하였습니다. 제 I 제목 프로그램의 최근 및 제안된 변경 HUD 2020 경영개혁계획(HUD
+2020 Management Reform Plan) 및 관련 노력(efforts)에 따라, HUD는 제 I 제목 프로그램 운영(program
+operations)에 변화를 주고 있습니다. HUD는 그 청구심사반(claims examination unit)을 앨버니(뉴욕주)(Albany
+(New York)) 재정운영센터(Financial Operations Center)에 재배치하였으며 청구 심사지침(claims
+examination guidelines) 개발을 위해 프라이스 워터하우스(Price Waterhouse)와 계약하였습니다. 앨버니에 있는
+프로그램 담당자들에 따르면 새로운 청구 프로세스(claims process)는 보다 간소화되고 자동화되며 심사자가 전자적으로 청구를 제출하는
+것을 포함할 것이라고 합니다. 또한, HUD는 전국에 있는 81개 위치에서 단일가족 주택운영(single-family housing
+operations)을 모두 4개 단일가족 주택소유권센터(Single-Family Homeownership Centers)로 통합하고 있습니다.
+각 센터는 다음과 같은 품질보증분과(quality assurance division)를 설치하였습니다: (1) 심사자를 감시하고, (2)
+심사자와 계약자(contractors)와 대출담당자와 같은 프로그램 참여자에 대한 제재를 권고하고, (3) 프로그램 참여자에 대해 한시적인
+프로그램 참여거부(limited denials of program participation)를 발행하고, 그리고 (4) 심사자를
+감사/조사(audits/investigations)를 위해 회부하는 것입니다. 그러나 HUD의 품질보증직원(quality assurance
+staff)이 모든 FHA 단일가족 프로그램(FHA single-family programs)에 관련된 심사자를 감시할 것이므로, 제1 제목
+심사자에 대한 HUD의 감독강화에 이 변경이 미칠 영향은 불분명합니다. 전체적으로, 1998 회계연도가 끝날 때까지 품질보증직원은 1998년
+2월 현재 43명에서 76명으로 증가할 것입니다. HUD는 보다 많은 품질보증직원의 추가가 심사자에 대한 검토의 횟수를 증가시키고 심사자의
+운영에 대해 보다 포괄적인 검토를 할 수 있게 할 것으로 기대하고 있습니다. 마무리하면서, 위원장님, 우리의 예비분석은 HUD의 제 I 제목
+재산개선대출보험프로그램 관리 및 프로그램 심사자에 대한 감독의 약점을 보여주고 있습니다. 이러한 약점은 프로그램을 관리하는 데 필요한 정보의
+부재와 심사자의 프로그램 규정 준수 여부에 대한 HUD의 감독을 중심으로 하고 있습니다. HUD 담당자들은 이러한 약점을 프로그램이 심사자
+운영(lender-operated)이라는 점, 제한적인 직원자원과, HUD의 모니터링 우선순위(monitoring priorities) 할당을
+이유로 설명하였습니다. 이러한 약점 때문에, 우리는 HUD가 재산개선 프로그램이 효율적으로 운영되고 남용이 없는지에 대해 거의 확신을 가질 수
+없을지도 모른다는 점을 우려하고 있습니다. 이 프로그램을 관리하고 감독하는 데 있어 HUD가 직면한 도전은 이 프로그램을 관리하는 데 필요한
+정보를 어떻게 얻을 것인지, 그리고 다른 FHA 주택보험 프로그램에 비해 상대적으로 소규모인 이 프로그램에 대한 심사자의 감독을 강화하는 것에
+초점이 맞추어져 있습니다. 우리의 보고서는 HUD의 프로그램 관리와 감독을 강화하기 위해 우리가 제시할 수 있는 어떠한 권고 사항이나 옵션을
+포함할 것입니다. 위원장님, 이것은 나의 진술을 마무리하는 것입니다. 위원장이시거나 또는 소위원회 위원들이 가지고 있는 어떠한 질문도 우리가
+기꺼이 답변할 것입니다.
