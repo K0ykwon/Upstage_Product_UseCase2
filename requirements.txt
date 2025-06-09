@@ -10,9 +10,9 @@ pandas==2.2.1
 python-magic==0.4.27
 python-magic-bin==0.4.14; sys_platform == 'win32'
 beautifulsoup4==4.12.3
-langchain==0.1.9
-langchain-community==0.0.27 
-langchain_text_splitters==0.3.8
+langchain
+langchain-community
+langchain_text_splitters
 nltk==3.9.1
 transformers==4.52.4
 faiss-cpu==1.11.0
