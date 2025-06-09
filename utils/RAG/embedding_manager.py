@@ -1,4 +1,4 @@
-from openai import OpenAI
+import requests
 import json
 import os
 import hashlib
@@ -12,10 +12,8 @@ class EmbeddingManager:
         cache_dir: 임베딩 캐시를 저장할 디렉토리
         create_embeddings: 새로운 임베딩 생성 여부
         """
-        self.client = OpenAI(
-            api_key=api_key,
-            base_url="https://api.upstage.ai/v1"
-        )
+        self.api_key = api_key
+        self.api_url = "https://api.upstage.ai/v1/embeddings"
         self.cache_dir = cache_dir
         self.create_embeddings = create_embeddings
         os.makedirs(cache_dir, exist_ok=True)
@@ -79,20 +77,33 @@ class EmbeddingManager:
             for i in range(0, len(texts_to_embed), batch_size):
                 batch_texts = texts_to_embed[i:i + batch_size]
                 self.logger.info(f"배치 처리 중: {i+1}~{min(i+batch_size, len(texts_to_embed))} / {len(texts_to_embed)} 청크")
-                batch_result = self.client.embeddings.create(
-                    model="embedding-passage",
-                    input=batch_texts
-                ).data
                 
-                # 임베딩 결과 저장 및 캐시
-                for text, result in zip(batch_texts, batch_result):
-                    embedding = result.embedding
-                    # 원본 텍스트의 인덱스를 찾아 해당하는 파일명 사용
-                    original_index = text_to_index[text]
-                    cache_path = self.get_cache_path(text, filenames[original_index])
-                    with open(cache_path, 'w') as f:
-                        json.dump(embedding, f)
-                    all_embeddings.append(embedding)
+                response = requests.post(
+                    self.api_url,
+                    headers={
+                        "Authorization": f"Bearer {self.api_key}",
+                        "Content-Type": "application/json"
+                    },
+                    json={
+                        "model": "embedding-passage",
+                        "input": batch_texts
+                    }
+                )
+                
+                if response.status_code == 200:
+                    batch_result = response.json()["data"]
+                    
+                    # 임베딩 결과 저장 및 캐시
+                    for text, result in zip(batch_texts, batch_result):
+                        embedding = result["embedding"]
+                        # 원본 텍스트의 인덱스를 찾아 해당하는 파일명 사용
+                        original_index = text_to_index[text]
+                        cache_path = self.get_cache_path(text, filenames[original_index])
+                        with open(cache_path, 'w') as f:
+                            json.dump(embedding, f)
+                        all_embeddings.append(embedding)
+                else:
+                    self.logger.error(f"임베딩 생성 실패: {response.status_code} - {response.text}")
         
         return all_embeddings
 
