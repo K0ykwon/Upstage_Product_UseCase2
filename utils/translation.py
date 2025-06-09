@@ -29,7 +29,7 @@ logging.basicConfig(
 # OpenAI 클라이언트 설정
 client = OpenAI(
     api_key=os.getenv("UPSTAGE_API_KEY"),
-    base_url="https://api.upstage.ai/v1"
+    base_url="https://api.upstage.ai/v1",
     http_client=None
 )
 
