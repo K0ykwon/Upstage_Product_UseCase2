@@ -2,7 +2,7 @@
 
 import os
 from dotenv import load_dotenv
-from openai import OpenAI
+import requests
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import logging
@@ -26,12 +26,8 @@ logging.basicConfig(
     ]
 )
 
-# OpenAI 클라이언트 설정
-client = OpenAI(
-    api_key=os.getenv("UPSTAGE_API_KEY"),
-    base_url="https://api.upstage.ai/v1",
-    http_client=None
-)
+API_KEY = os.getenv("UPSTAGE_API_KEY")
+API_URL = "https://api.upstage.ai/v1/chat/completions"
 
 def split_into_sentences(text):
     """
@@ -57,14 +53,28 @@ def split_into_sentences(text):
 def translate_text(text, target_language="ko"):
     """텍스트를 지정된 언어로 번역합니다."""
     try:
-        response = client.chat.completions.create(
-            model="solar-pro2-preview",
-            messages=[
-                {"role": "system", "content": f"다음 텍스트를 {target_language}로 번역해주세요."},
-                {"role": "user", "content": text}
-            ]
+        response = requests.post(
+            API_URL,
+            headers={
+                "Authorization": f"Bearer {API_KEY}",
+                "Content-Type": "application/json"
+            },
+            json={
+                "model": "solar-pro2-preview",
+                "messages": [
+                    {"role": "system", "content": f"다음 텍스트를 {target_language}로 번역해주세요."},
+                    {"role": "user", "content": text}
+                ],
+                "temperature": 0.7,
+                "max_tokens": 1000
+            }
         )
-        return response.choices[0].message.content.strip()
+        
+        if response.status_code == 200:
+            response_data = response.json()
+            if 'choices' in response_data and len(response_data['choices']) > 0:
+                return response_data['choices'][0]['message']['content'].strip()
+        return text
     except Exception as e:
         print(f"Error in translate_text: {str(e)}")
         return text
