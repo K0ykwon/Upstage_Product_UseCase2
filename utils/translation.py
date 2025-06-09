@@ -30,6 +30,7 @@ logging.basicConfig(
 client = OpenAI(
     api_key=os.getenv("UPSTAGE_API_KEY"),
     base_url="https://api.upstage.ai/v1"
+    http_client=None
 )
 
 def split_into_sentences(text):
