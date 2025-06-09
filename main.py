@@ -11,12 +11,19 @@ from utils.chat import (
     process_rag_response
 )
 from utils.sidebar import render_sidebar, save_message_to_db, save_document_to_db, load_session_data
-from openai import OpenAI
+import requests
 import json
 import time
+import os
+from dotenv import load_dotenv
+
+# 환경 변수 로드
+load_dotenv()
+
 if 'initialized' not in st.session_state:
     st.session_state.initialized = True
     initialize_rag_instance()
+
 # Page & Session setup
 st.set_page_config(
     page_title="AI Document Assistant",
@@ -44,6 +51,14 @@ if "current_session_id" in st.session_state:
     elif st.session_state.prev_session_id != st.session_state.current_session_id:
         st.session_state.prev_session_id = st.session_state.current_session_id
         load_session_data(st.session_state.current_session_id)
+
+# API 설정
+API_KEY = os.getenv("UPSTAGE_API_KEY")
+API_URL = os.getenv("UPSTAGE_API_URL", "https://api.upstage.ai/v1")
+
+if not API_KEY:
+    st.error("UPSTAGE_API_KEY 환경 변수가 설정되지 않았습니다.")
+    st.stop()
 
 def main():
     st.title("🤖 AI Document Assistant")
@@ -294,12 +309,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# OpenAI 클라이언트 초기화
-client = OpenAI(
-    api_key="up_ixO1ufDY54pxRLsXakfhz3w0qHOB4",
-    base_url="https://api.upstage.ai/v1"
-)
-
 # RAG 함수 정의
 def search_rag_documents(query):
     """RAG 시스템에서 관련 문서를 검색합니다."""
@@ -315,14 +324,26 @@ def search_rag_documents(query):
 def summarize_document_content(content):
     """문서 내용을 간단히 요약합니다."""
     try:
-        response = client.chat.completions.create(
-            model="solar-mini",
-            messages=[
-                {"role": "system", "content": "문서의 내용을 1-2줄로 간단히 요약해주세요."},
-                {"role": "user", "content": content[:1000]}  # 처음 1000자만 사용
-            ]
+        response = requests.post(
+            f"{API_URL}/chat/completions",
+            headers={
+                "Authorization": f"Bearer {API_KEY}",
+                "Content-Type": "application/json"
+            },
+            json={
+                "model": "solar-pro-preview",
+                "messages": [
+                    {"role": "system", "content": "문서의 내용을 1-2줄로 간단히 요약해주세요."},
+                    {"role": "user", "content": content[:1000]}  # 처음 1000자만 사용
+                ]
+            }
         )
-        return response.choices[0].message.content
+        
+        if response.status_code == 200:
+            result = response.json()
+            return result["choices"][0]["message"]["content"]
+        else:
+            return "문서 요약을 생성할 수 없습니다."
     except Exception as e:
         return "문서 요약을 생성할 수 없습니다."
 
