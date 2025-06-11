@@ -56,30 +56,10 @@ class ChatDatabase:
                 )
             """)
             
-            # 사용자 프로필 테이블 (모든 세션에서 공유되는 사용자 특성)
-            cursor.execute("""
-                CREATE TABLE IF NOT EXISTS user_profile (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    user_id TEXT DEFAULT 'default_user',
-                    interests TEXT,  -- JSON 형태로 관심사 저장
-                    personality_traits TEXT,  -- JSON 형태로 성향 저장
-                    preferred_response_style TEXT,  -- 선호하는 답변 스타일
-                    communication_patterns TEXT,  -- JSON 형태로 소통 패턴 저장
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-                )
-            """)
-            
-            # 기본 사용자 프로필 생성 (없는 경우)
-            cursor.execute("""
-                INSERT OR IGNORE INTO user_profile (user_id, interests, personality_traits, preferred_response_style, communication_patterns)
-                VALUES ('default_user', '[]', '[]', '', '[]')
-            """)
-            
             conn.commit()
     
     def create_session(self, session_name: str = None) -> str:
-        """새 세션 생성"""
+        """새 세션 생성 (최대 10개 세션 유지)"""
         session_id = str(uuid.uuid4())
         
         if not session_name:
@@ -87,6 +67,29 @@ class ChatDatabase:
         
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
+            
+            # 현재 세션 수 확인
+            cursor.execute("SELECT COUNT(*) FROM sessions")
+            session_count = cursor.fetchone()[0]
+            
+            # 10개 이상인 경우 가장 오래된 세션 삭제
+            if session_count >= 10:
+                cursor.execute("""
+                    SELECT session_id FROM sessions 
+                    ORDER BY updated_at ASC 
+                    LIMIT ?
+                """, (session_count - 9,))  # 10개를 유지하므로 초과분 삭제
+                
+                old_sessions = cursor.fetchall()
+                
+                for (old_session_id,) in old_sessions:
+                    # 관련 데이터 모두 삭제
+                    cursor.execute("DELETE FROM messages WHERE session_id = ?", (old_session_id,))
+                    cursor.execute("DELETE FROM documents WHERE session_id = ?", (old_session_id,))
+                    cursor.execute("DELETE FROM sessions WHERE session_id = ?", (old_session_id,))
+                    print(f"🗑️ 오래된 세션 삭제: {old_session_id[:8]}...")
+            
+            # 새 세션 생성
             cursor.execute("""
                 INSERT INTO sessions (session_id, session_name)
                 VALUES (?, ?)
@@ -96,13 +99,13 @@ class ChatDatabase:
         return session_id
     
     def get_sessions(self) -> List[Dict]:
-        """모든 세션 목록 조회 (최신 생성순)"""
+        """모든 세션 목록 조회 (마지막 대화 시간순)"""
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             cursor.execute("""
-                SELECT session_id, session_name, created_at, message_count
+                SELECT session_id, session_name, created_at, updated_at, message_count
                 FROM sessions
-                ORDER BY created_at DESC
+                ORDER BY updated_at DESC
             """)
             
             sessions = []
@@ -111,7 +114,8 @@ class ChatDatabase:
                     'session_id': row[0],
                     'session_name': row[1],
                     'created_at': row[2],
-                    'message_count': row[3]
+                    'updated_at': row[3],
+                    'message_count': row[4]
                 })
             
             return sessions
@@ -140,31 +144,22 @@ class ChatDatabase:
             conn.commit()
     
     def save_message(self, session_id: str, role: str, content: str):
-        """메시지 저장 (채팅 5개부터 저장)"""
+        """모든 메시지를 데이터베이스에 저장"""
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             
-            # 현재 세션의 메시지 수 확인
-            cursor.execute("""
-                SELECT message_count FROM sessions WHERE session_id = ?
-            """, (session_id,))
-            
-            result = cursor.fetchone()
-            current_count = result[0] if result else 0
-            
-            # 메시지 수 업데이트 (항상)
+            # 메시지 수 업데이트 및 메시지 저장 (모든 메시지)
             cursor.execute("""
                 UPDATE sessions 
                 SET message_count = message_count + 1, updated_at = CURRENT_TIMESTAMP
                 WHERE session_id = ?
             """, (session_id,))
             
-            # 채팅 5개부터 DB에 저장
-            if current_count >= 4:  # 5번째 메시지부터 저장 (0-based index)
-                cursor.execute("""
-                    INSERT INTO messages (session_id, role, content)
-                    VALUES (?, ?, ?)
-                """, (session_id, role, content))
+            # 모든 메시지를 DB에 저장
+            cursor.execute("""
+                INSERT INTO messages (session_id, role, content)
+                VALUES (?, ?, ?)
+            """, (session_id, role, content))
             
             conn.commit()
     
@@ -221,116 +216,6 @@ class ChatDatabase:
                 }
             return None
     
-    def update_user_profile(self, interests: List[str] = None, personality_traits: List[str] = None, 
-                           preferred_response_style: str = None, communication_patterns: List[str] = None,
-                           user_id: str = 'default_user'):
-        """사용자 프로필 업데이트"""
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            
-            # 현재 프로필 조회
-            cursor.execute("""
-                SELECT interests, personality_traits, preferred_response_style, communication_patterns
-                FROM user_profile WHERE user_id = ?
-            """, (user_id,))
-            
-            current = cursor.fetchone()
-            if current:
-                current_interests = json.loads(current[0]) if current[0] else []
-                current_traits = json.loads(current[1]) if current[1] else []
-                current_style = current[2] or ""
-                current_patterns = json.loads(current[3]) if current[3] else []
-                
-                # 새로운 정보 병합
-                if interests:
-                    current_interests.extend([i for i in interests if i not in current_interests])
-                if personality_traits:
-                    current_traits.extend([t for t in personality_traits if t not in current_traits])
-                if preferred_response_style:
-                    current_style = preferred_response_style
-                if communication_patterns:
-                    current_patterns.extend([p for p in communication_patterns if p not in current_patterns])
-                
-                # 업데이트
-                cursor.execute("""
-                    UPDATE user_profile 
-                    SET interests = ?, personality_traits = ?, preferred_response_style = ?, 
-                        communication_patterns = ?, updated_at = CURRENT_TIMESTAMP
-                    WHERE user_id = ?
-                """, (json.dumps(current_interests), json.dumps(current_traits), 
-                      current_style, json.dumps(current_patterns), user_id))
-            
-            conn.commit()
-    
-    def get_user_profile(self, user_id: str = 'default_user') -> Dict:
-        """사용자 프로필 조회"""
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute("""
-                SELECT interests, personality_traits, preferred_response_style, communication_patterns
-                FROM user_profile WHERE user_id = ?
-            """, (user_id,))
-            
-            row = cursor.fetchone()
-            if row:
-                return {
-                    'interests': json.loads(row[0]) if row[0] else [],
-                    'personality_traits': json.loads(row[1]) if row[1] else [],
-                    'preferred_response_style': row[2] or "",
-                    'communication_patterns': json.loads(row[3]) if row[3] else []
-                }
-            return {
-                'interests': [],
-                'personality_traits': [],
-                'preferred_response_style': "",
-                'communication_patterns': []
-            }
-    
-    def analyze_and_update_user_profile(self, session_messages: List[Dict]):
-        """대화 내용을 분석하여 사용자 프로필 자동 업데이트"""
-        if len(session_messages) < 6:  # 충분한 대화가 있을 때만 분석
-            return
-        
-        # 사용자 메시지만 추출
-        user_messages = [msg['content'] for msg in session_messages if msg['role'] == 'user']
-        
-        if len(user_messages) < 3:
-            return
-        
-        # 간단한 키워드 기반 분석 (실제로는 더 정교한 NLP 분석 가능)
-        interests_keywords = {
-            '기술': ['AI', '인공지능', '프로그래밍', '코딩', '개발', '소프트웨어', '하드웨어'],
-            '비즈니스': ['사업', '경영', '마케팅', '투자', '창업', '회사', '매출'],
-            '교육': ['학습', '공부', '교육', '강의', '수업', '시험', '학교'],
-            '건강': ['운동', '건강', '다이어트', '의료', '병원', '약'],
-            '여행': ['여행', '관광', '휴가', '호텔', '항공', '해외'],
-            '음식': ['요리', '맛집', '레시피', '음식', '카페', '레스토랑']
-        }
-        
-        detected_interests = []
-        for category, keywords in interests_keywords.items():
-            for message in user_messages:
-                if any(keyword in message for keyword in keywords):
-                    detected_interests.append(category)
-                    break
-        
-        # 성향 분석 (질문 패턴 기반)
-        personality_traits = []
-        question_count = sum(1 for msg in user_messages if '?' in msg or '뭐' in msg or '어떻게' in msg)
-        if question_count > len(user_messages) * 0.6:
-            personality_traits.append('호기심이 많음')
-        
-        detail_count = sum(1 for msg in user_messages if len(msg) > 50)
-        if detail_count > len(user_messages) * 0.5:
-            personality_traits.append('상세한 설명을 선호')
-        
-        # 프로필 업데이트
-        if detected_interests or personality_traits:
-            self.update_user_profile(
-                interests=detected_interests,
-                personality_traits=personality_traits
-            )
-    
     def clear_all_data(self):
         """모든 데이터 삭제 (개발/테스트용)"""
         with sqlite3.connect(self.db_path) as conn:
@@ -338,7 +223,6 @@ class ChatDatabase:
             cursor.execute("DELETE FROM messages")
             cursor.execute("DELETE FROM documents")
             cursor.execute("DELETE FROM sessions")
-            cursor.execute("DELETE FROM user_profile")
             conn.commit()
 
     def update_session_title_from_first_message(self, session_id: str, first_user_message: str):
@@ -356,39 +240,60 @@ class ChatDatabase:
                 base_url="https://api.upstage.ai/v1"
             )
             
-            title_prompt = f"""다음 사용자의 첫 번째 메시지를 바탕으로 대화 세션의 간결한 제목을 생성해주세요.
+            # 문서 업로드가 포함된 메시지인지 확인
+            document_info = ""
+            if "**Document:**" in first_user_message:
+                parts = first_user_message.split("**Document:**")
+                if len(parts) > 1:
+                    doc_part = parts[1].split("**Query:**")[0].strip()
+                    document_info = f"\n문서 정보: {doc_part}"
+            
+            title_prompt = f"""다음 사용자의 첫 번째 메시지를 바탕으로 대화 세션의 창의적이고 구체적인 제목을 생성해주세요.
 
-사용자 메시지: "{first_user_message}"
+사용자 메시지: "{first_user_message}"{document_info}
 
-규칙:
-1. 10글자 이내로 간결하게
-2. 핵심 주제나 키워드 포함
-3. 특수문자나 이모지 사용 금지
-4. 명사형으로 작성
+제목 생성 규칙:
+1. 8-15글자 사이로 작성
+2. 구체적인 주제나 핵심 키워드 포함
+3. 창의적이고 기억하기 쉬운 제목
+4. 특수문자나 이모지 사용 금지
+5. 명사형으로 작성
+6. 일반적인 표현보다는 구체적인 표현 선호
 
-예시:
-- "파이썬 프로그래밍 질문" → "파이썬 프로그래밍"
-- "마케팅 전략에 대해 알려줘" → "마케팅 전략"
-- "건강한 식단 추천해줘" → "건강 식단"
+좋은 제목 예시:
+- "안녕하세요" → "AI 어시스턴트 첫 만남"
+- "이 문서를 요약해줘" → "문서 핵심 내용 분석"
+- "마케팅 전략에 대해 알려줘" → "마케팅 전략 가이드"
+- "파이썬 코딩 질문이 있어" → "파이썬 프로그래밍 도움"
+- "건강한 식단 추천해줘" → "건강 식단 설계"
+- "회사 보고서 분석" → "비즈니스 리포트 분석"
 
-제목만 답변해주세요."""
+피해야 할 제목:
+- "질문", "요청", "문의" 같은 일반적 표현
+- "인사", "안녕" 같은 단순한 표현
+- "도움", "설명" 같은 모호한 표현
+
+사용자의 의도와 목적을 파악하여 구체적이고 매력적인 제목을 만들어주세요. 제목만 답변해주세요."""
 
             messages = [
-                {"role": "system", "content": "당신은 대화 제목 생성 전문가입니다. 간결하고 명확한 제목을 만들어주세요."},
+                {"role": "system", "content": "당신은 창의적인 제목 생성 전문가입니다. 사용자의 의도를 파악하여 기억하기 쉽고 구체적인 제목을 만들어주세요."},
                 {"role": "user", "content": title_prompt}
             ]
             
             response = client.chat.completions.create(
                 model="solar-pro2-preview",
-                messages=messages,
-                reasoning_effort="low"
+                messages=messages
             )
             
             generated_title = response.choices[0].message.content
             
             if generated_title and len(generated_title.strip()) > 0:
                 # 생성된 제목 정리 (따옴표, 개행 등 제거)
-                clean_title = generated_title.strip().replace('"', '').replace("'", "").replace('\n', ' ')[:15]
+                clean_title = generated_title.strip().replace('"', '').replace("'", "").replace('\n', ' ')
+                
+                # 길이 제한 (최대 20자)
+                if len(clean_title) > 20:
+                    clean_title = clean_title[:20]
                 
                 # 세션 제목 업데이트
                 with sqlite3.connect(self.db_path) as conn:
@@ -405,8 +310,28 @@ class ChatDatabase:
         except Exception as e:
             print(f"제목 생성 중 오류: {e}")
         
-        # AI 제목 생성 실패 시 기본 제목 유지
-        return None
+        # AI 제목 생성 실패 시 기본 제목 생성
+        try:
+            # 간단한 키워드 기반 제목 생성
+            message_lower = first_user_message.lower()
+            
+            # 문서 관련
+            if any(word in message_lower for word in ['pdf', '문서', '파일', '요약', '분석']):
+                return "문서 분석 요청"
+            # 질문 관련
+            elif any(word in message_lower for word in ['질문', '궁금', '어떻게', '무엇', '왜']):
+                return "전문 상담 요청"
+            # 추천 관련
+            elif any(word in message_lower for word in ['추천', '제안', '알려줘', '소개']):
+                return "정보 추천 요청"
+            # 인사 관련
+            elif any(word in message_lower for word in ['안녕', '하이', '헬로', '처음']):
+                return "AI 어시스턴트 첫 만남"
+            else:
+                return "새로운 대화"
+                
+        except:
+            return "새로운 대화"
 
 # 전역 데이터베이스 인스턴스
 db = ChatDatabase() 

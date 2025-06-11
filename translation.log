@@ -499,3 +499,69 @@
 2025-06-10 01:15:02,263 [INFO] HTTP Request: POST https://api.upstage.ai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-06-10 01:15:17,443 [INFO] HTTP Request: POST https://api.upstage.ai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-06-10 01:15:26,738 [INFO] HTTP Request: POST https://api.upstage.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 16:22:06,905 [INFO] Loading faiss with AVX2 support.
+2025-06-11 16:22:07,057 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 16:22:07,073 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 16:22:07,075 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 16:25:47,354 [INFO] Loading faiss with AVX2 support.
+2025-06-11 16:25:47,717 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 16:25:47,746 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 16:25:47,747 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 16:27:04,691 [INFO] 배치 처리 중: 1~1 / 1 청크
+2025-06-11 16:55:29,528 [INFO] Loading faiss with AVX2 support.
+2025-06-11 16:55:29,849 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 16:55:29,876 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 16:55:29,878 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 17:03:13,202 [INFO] Loading faiss with AVX2 support.
+2025-06-11 17:03:13,492 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 17:03:13,520 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 17:03:13,521 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 17:03:13,522 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 17:23:42,055 [INFO] Loading faiss with AVX2 support.
+2025-06-11 17:23:42,656 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 17:23:42,724 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 17:23:42,730 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 17:23:42,731 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 17:23:42,731 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 17:30:02,885 [INFO] Loading faiss with AVX2 support.
+2025-06-11 17:30:03,262 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 17:30:03,311 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 17:30:03,313 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 17:44:02,022 [INFO] Loading faiss with AVX2 support.
+2025-06-11 17:44:02,263 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 17:44:02,293 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 17:44:02,295 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 17:44:02,296 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 17:45:26,727 [INFO] 배치 처리 중: 1~2 / 2 청크
+2025-06-11 18:01:21,067 [INFO] Loading faiss with AVX2 support.
+2025-06-11 18:01:21,415 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 18:01:21,451 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 18:01:21,454 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:01:21,455 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:01:21,455 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:04:11,283 [INFO] 배치 처리 중: 1~2 / 2 청크
+2025-06-11 18:07:11,840 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:07:24,435 [INFO] 배치 처리 중: 1~2 / 2 청크
+2025-06-11 18:12:32,888 [INFO] Loading faiss with AVX2 support.
+2025-06-11 18:12:33,222 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 18:12:33,247 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 18:12:33,250 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:12:33,250 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:12:33,250 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:12:33,250 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:28:56,857 [INFO] Loading faiss with AVX2 support.
+2025-06-11 18:28:57,012 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 18:28:57,035 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 18:28:57,037 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:50:56,855 [INFO] Loading faiss with AVX2 support.
+2025-06-11 18:50:57,041 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 18:50:57,062 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 18:50:57,065 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:50:57,065 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:54:36,469 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 18:59:06,037 [INFO] HTTP Request: POST https://api.upstage.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 19:01:23,617 [INFO] Loading faiss with AVX2 support.
+2025-06-11 19:01:23,732 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-11 19:01:23,747 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 19:01:23,748 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-11 19:02:34,046 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.

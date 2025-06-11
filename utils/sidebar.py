@@ -8,32 +8,6 @@ def render_sidebar():
     with st.sidebar:
         st.title("📄 Document Assistant")
         
-        # 사용자 프로필 섹션
-        st.markdown("---")
-        st.markdown("### 👤 사용자 프로필")
-        
-        # 사용자 프로필 정보 표시
-        profile = db.get_user_profile()
-        
-        # 프로필 정보가 있는 경우 표시
-        if any([profile['interests'], profile['personality_traits'], profile['preferred_response_style']]):
-            with st.expander("🔍 내 프로필 보기", expanded=False):
-                if profile['interests']:
-                    st.markdown(f"**관심사:** {', '.join(profile['interests'])}")
-                
-                if profile['personality_traits']:
-                    st.markdown(f"**성향:** {', '.join(profile['personality_traits'])}")
-                
-                if profile['preferred_response_style']:
-                    st.markdown(f"**선호 스타일:** {profile['preferred_response_style']}")
-                
-                if profile['communication_patterns']:
-                    st.markdown(f"**소통 패턴:** {', '.join(profile['communication_patterns'])}")
-                
-                st.caption("💡 이 정보는 모든 세션에서 공유되어 개인화된 답변을 제공합니다.")
-        else:
-            st.info("💬 대화를 나누면서 자동으로 프로필이 생성됩니다!")
-        
         # 세션 관리 섹션
         st.markdown("---")
         st.markdown("### 💬 대화 세션")
@@ -118,10 +92,6 @@ def render_sidebar():
         else:
             st.info("💬 새 대화 시작")
         
-        # 프로필 공유 정보 (간결하게)
-        if any([profile['interests'], profile['personality_traits'], profile['preferred_response_style']]):
-            st.caption("🔗 사용자 프로필이 모든 대화에서 활용됩니다")
-        
         # 사용 방법
         st.markdown("---")
         st.markdown("### 📖 사용법")
@@ -134,7 +104,6 @@ def render_sidebar():
             
             **메모리 특징:**
             - 각 대화는 독립적으로 관리
-            - 사용자 성향은 모든 대화에서 공유
             - 5개 대화부터 DB에 자동 저장
             """)
         
@@ -142,63 +111,53 @@ def render_sidebar():
         st.markdown("---")
         st.markdown("### 🤖 AI 모델")
         st.caption("**Upstage Solar Pro2 Preview**")
-        st.caption("OpenAI 호환 API • 개인화 응답 지원")
+        st.caption("OpenAI 호환 API • RAG 지원")
         
         # 데이터베이스 관리 (개발용)
         if st.checkbox("🔧 개발자 모드"):
             st.markdown("#### 데이터베이스 관리")
             
-            col1, col2 = st.columns(2)
-            with col1:
-                if st.button("🗑️ 모든 데이터 삭제", type="secondary"):
-                    db.clear_all_data()
-                    st.session_state.clear()
-                    st.success("모든 데이터가 삭제되었습니다.")
-                    st.rerun()
-            
-            with col2:
-                if st.button("👤 프로필 초기화", type="secondary"):
-                    # 프로필만 초기화
-                    db.update_user_profile(
-                        interests=[],
-                        personality_traits=[],
-                        preferred_response_style="",
-                        communication_patterns=[]
-                    )
-                    st.success("사용자 프로필이 초기화되었습니다.")
-                    st.rerun()
+            if st.button("🗑️ 모든 데이터 삭제", type="secondary", use_container_width=True):
+                db.clear_all_data()
+                st.session_state.clear()
+                st.success("모든 데이터가 삭제되었습니다.")
+                st.rerun()
     
     return None  # 더 이상 사이드바에서 파일 업로드를 처리하지 않음
 
 def load_session_data(session_id: str):
-    """세션 데이터 로드 - 세션별 메모리 상태 관리"""
-    # 현재 세션의 메모리 상태를 저장
+    """세션 데이터 로드 - DB 우선 로드 및 메모리 동기화"""
+    
+    # 현재 세션의 메모리 상태를 저장 (변경이 있는 경우에만)
     if "current_session_id" in st.session_state and st.session_state.current_session_id != session_id:
-        # 현재 세션의 상태를 세션별 메모리에 저장
         if "session_memory" not in st.session_state:
             st.session_state.session_memory = {}
         
-        st.session_state.session_memory[st.session_state.current_session_id] = {
-            "messages": st.session_state.messages.copy(),
-            "processed_pdf": st.session_state.get("processed_pdf"),
-            "pdf_summary": st.session_state.get("pdf_summary")
-        }
+        # 현재 세션에 메시지가 있다면 메모리에 저장
+        if st.session_state.messages:
+            st.session_state.session_memory[st.session_state.current_session_id] = {
+                "messages": st.session_state.messages.copy(),
+                "processed_pdf": st.session_state.get("processed_pdf"),
+                "pdf_summary": st.session_state.get("pdf_summary")
+            }
     
-    # 새 세션의 데이터 로드
+    # 새 세션 데이터 로드 - DB를 우선으로 로드
     if "session_memory" not in st.session_state:
         st.session_state.session_memory = {}
     
-    # 세션별 메모리에 저장된 데이터가 있는지 확인
-    if session_id in st.session_state.session_memory:
-        # 메모리에서 복원
-        session_data = st.session_state.session_memory[session_id]
-        st.session_state.messages = session_data["messages"]
-        st.session_state.processed_pdf = session_data["processed_pdf"]
-        st.session_state.pdf_summary = session_data["pdf_summary"]
-    else:
-        # DB에서 로드
+    # DB에서 메시지 로드 (항상 DB를 우선으로)
+    try:
         db_messages = db.get_messages(session_id)
-        st.session_state.messages = db_messages
+        
+        # DB에서 로드한 메시지를 올바른 형식으로 변환
+        formatted_messages = []
+        for msg in db_messages:
+            formatted_messages.append({
+                "role": msg["role"],
+                "content": msg["content"]
+            })
+        
+        st.session_state.messages = formatted_messages
         
         # 문서 정보 로드
         document = db.get_document(session_id)
@@ -209,12 +168,21 @@ def load_session_data(session_id: str):
             st.session_state.processed_pdf = None
             st.session_state.pdf_summary = None
         
-        # 로드한 데이터를 세션별 메모리에 저장
+        # 로드한 데이터를 세션별 메모리에도 저장
         st.session_state.session_memory[session_id] = {
             "messages": st.session_state.messages.copy(),
             "processed_pdf": st.session_state.processed_pdf,
             "pdf_summary": st.session_state.pdf_summary
         }
+        
+        print(f"📄 세션 {session_id[:8]} 로드: {len(formatted_messages)}개 메시지")
+        
+    except Exception as e:
+        print(f"❌ 세션 로드 오류: {e}")
+        # 오류 발생 시 빈 상태로 초기화
+        st.session_state.messages = []
+        st.session_state.processed_pdf = None
+        st.session_state.pdf_summary = None
 
 def save_message_to_db(role: str, content: str):
     """메시지를 데이터베이스에 저장"""
