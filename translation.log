@@ -565,3 +565,7 @@
 2025-06-11 19:01:23,747 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
 2025-06-11 19:01:23,748 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
 2025-06-11 19:02:34,046 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-06-17 17:28:59,549 [INFO] Loading faiss with AVX2 support.
+2025-06-17 17:29:00,164 [INFO] Successfully loaded faiss with AVX2 support.
+2025-06-17 17:29:00,204 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-17 17:29:00,207 [WARNING] `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
