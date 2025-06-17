@@ -16,3 +16,6 @@ langchain_text_splitters
 nltk==3.9.1
 transformers==4.52.4
 faiss-cpu==1.11.0
+tiktoken==0.7.0
+httpx==0.27.2
+langchain-upstage==0.1.1
