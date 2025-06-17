@@ -6,7 +6,7 @@ from typing import List, Dict, Optional
 import os
 
 class ChatDatabase:
-    def __init__(self, db_path: str = "frontend/data/chat_history.db"):
+    def __init__(self, db_path: str = "data/chat_history.db"):
         self.db_path = db_path
         
         # 데이터베이스 디렉토리 생성
